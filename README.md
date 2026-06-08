@@ -153,16 +153,7 @@ git ls-files | grep -E "\.(env|key|pem)$"            # should print nothing
 This repository is released under the **AI Workflow Experiments Community
 License (2025)** — a permissive community license. **Anyone can use, copy,
 modify, merge, publish, distribute, sublicense, and/or sell copies of the
-software** for any purpose, with or without attribution, subject to the
-following conditions:
-
-- The above copyright notice and this permission notice shall be included in
-  all copies or substantial portions of the software.
-- The software is provided **"as is"**, without warranty of any kind.
-- You are responsible for keeping your own secrets (API keys, tokens,
-  credentials) out of any version you publish.
-
-See the full text in [`LICENSE`](./LICENSE).
+software** for any purpose, with or without attribution.
 
 ---
 
