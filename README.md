@@ -1,8 +1,22 @@
 # AI Workflow Experiments
 
-A multi-project repository exploring different AI agent frameworks and deployment patterns. It contains three independent sub-projects, each with its own toolchain, dependencies, and documentation.
+A collection of hands-on projects I built **to learn how to design and ship AI workflows**. Each sub-folder is an independent experiment with its own toolchain, dependencies, and documentation, focused on a different part of the AI agent stack.
 
 > ⚠️ **Security Notice:** This repository **does not** track any `.env` files, API keys, service-role tokens, certificates, or other secrets. Every sub-project has its own `.gitignore` that excludes these files. See the [Security](#security) section below for details.
+
+---
+
+## 📚 Learning Projects
+
+These are the three projects I built while learning AI workflow patterns — each one tackles a different problem area:
+
+| # | Project | Stack | What I learned |
+|---|---------|-------|----------------|
+| 1️⃣ | [Mastra AI Agent Team](./Mastra%20first%20test/README.md) | TypeScript, Node.js | Multi-agent orchestration with [Mastra](https://mastra.ai) — agents, tools, and a coordinator pattern. |
+| 2️⃣ | [Hindsight Docker](./hindsight%20docker/README.md) | Docker | Containerised deployment of the Hindsight service and environment-based configuration. |
+| 3️⃣ | [Agno for Todo](./agno%20for%20todo/README.md) | Python, Supabase (optional) | AI-assisted task management with [Agno](https://github.com/agno-agi/agno), Riverpod-style state, and a CLI/API. |
+
+> 💡 **Why this repo exists:** I wanted a single place to keep every AI workflow experiment, compare approaches side-by-side, and have a reference for future projects. The code is intentionally kept simple and self-contained so the focus stays on the *workflow* rather than production polish.
 
 ---
 
