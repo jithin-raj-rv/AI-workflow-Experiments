@@ -8,13 +8,14 @@ A collection of hands-on projects I built **to learn how to design and ship AI w
 
 ## 📚 Learning Projects
 
-These are the three projects I built while learning AI workflow patterns — each one tackles a different problem area:
+These are the four projects I built while learning AI workflow patterns — each one tackles a different problem area:
 
 | # | Project | Stack | What I learned |
 |---|---------|-------|----------------|
 | 1️⃣ | [Mastra AI Agent Team](./Mastra%20first%20test/README.md) | TypeScript, Node.js | Multi-agent orchestration with [Mastra](https://mastra.ai) — agents, tools, and a coordinator pattern. |
-| 2️⃣ | [Hindsight Docker](./hindsight%20docker/README.md) | Docker | Containerised deployment of the Hindsight service and environment-based configuration. |
-| 3️⃣ | [Agno for Todo](./agno%20for%20todo/README.md) | Python, Supabase (optional) | AI-assisted task management with [Agno](https://github.com/agno-agi/agno), Riverpod-style state, and a CLI/API. |
+| 2️⃣ | [Mastra for Todo App](./Mastra%20for%20todo/README.md) | TypeScript, Node.js, Mastra | A full Mastra-powered todo / goals / reminders app — agents, tools, workflows, scorers, Supabase integration. |
+| 3️⃣ | [Hindsight Docker](./hindsight%20docker/README.md) | Docker | Containerised deployment of the Hindsight service and environment-based configuration. |
+| 4️⃣ | [Agno for Todo](./agno%20for%20todo/README.md) | Python, Supabase (optional) | AI-assisted task management with [Agno](https://github.com/agno-agi/agno), Riverpod-style state, and a CLI/API. |
 
 > 💡 **Why this repo exists:** I wanted a single place to keep every AI workflow experiment, compare approaches side-by-side, and have a reference for future projects. The code is intentionally kept simple and self-contained so the focus stays on the *workflow* rather than production polish.
 
@@ -25,8 +26,9 @@ These are the three projects I built while learning AI workflow patterns — eac
 ```
 AI workflow Experiments/
 ├── Mastra first test/      # 1️⃣ Mastra multi-agent team (TypeScript)
-├── hindsight docker/       # 2️⃣ Hindsight Docker deployment
-├── agno for todo/          # 3️⃣ Agno-powered todo assistant (Python)
+├── Mastra for todo/        # 2️⃣ Mastra-powered todo application (TypeScript)
+├── hindsight docker/       # 3️⃣ Hindsight Docker deployment
+├── agno for todo/          # 4️⃣ Agno-powered todo assistant (Python)
 └── README.md               # ← you are here
 ```
 
@@ -49,7 +51,19 @@ A multi-agent system built with [Mastra](https://mastra.ai) for collaborative AI
   - [Mastra framework](https://mastra.ai)
   - [Mastra Studio docs](https://mastra.ai/docs/studio/overview)
 
-### 2️⃣ [Hindsight Docker](./hindsight%20docker/README.md)
+### 2️⃣ [Mastra for Todo App](./Mastra%20for%20todo/README.md)
+A full [Mastra](https://mastra.ai)-powered todo / goals / reminders application that lives in `Mastra for todo/todo-app/`. Showcases agents, tools, workflows, scorers, and Supabase integration.
+
+- **Stack:** TypeScript, Node.js, npm, Supabase
+- **Use case:** End-to-end Mastra app (multi-agent todo + goals + reminders)
+- **Quick start:** `cd "Mastra for todo/todo-app" && npm install && npm run dev`
+- **Quick links:**
+  - [Project README](./Mastra%20for%20todo/README.md)
+  - [Mastra todo app (todo-app)](./Mastra%20for%20todo/todo-app/README.md)
+  - [Mastra framework](https://mastra.ai)
+  - [Mastra Studio docs](https://mastra.ai/docs/studio/overview)
+
+### 3️⃣ [Hindsight Docker](./hindsight%20docker/README.md)
 Dockerised deployment configuration for the Hindsight service. Provides reproducible container builds and environment-based configuration.
 
 - **Stack:** Docker
@@ -60,7 +74,7 @@ Dockerised deployment configuration for the Hindsight service. Provides reproduc
   - [Docker docs](https://docs.docker.com/)
   - [Docker Compose overview](https://docs.docker.com/compose/)
 
-### 3️⃣ [Agno for Todo](./agno%20for%20todo/README.md)
+### 4️⃣ [Agno for Todo](./agno%20for%20todo/README.md)
 An [Agno](https://github.com/agno-agi/agno)-based AI agent project that powers a todo / task-management assistant, with an optional Supabase backend.
 
 - **Stack:** Python 3.10+, Supabase (optional)
@@ -82,7 +96,8 @@ Different sub-projects have different prerequisites. At a glance:
 
 | Sub-project       | Required tools                                 |
 |-------------------|------------------------------------------------|
-| Mastra            | Node.js LTS, npm (or pnpm/yarn)                |
+| Mastra first test | Node.js LTS, npm (or pnpm/yarn)                |
+| Mastra for todo   | Node.js LTS, npm, (optional) Supabase CLI      |
 | Hindsight Docker  | Docker 20.10+, (optional) Docker Compose v2    |
 | Agno for Todo     | Python 3.10+, pip, (optional) Supabase CLI    |
 
@@ -97,6 +112,7 @@ cd "AI workflow Experiments"
 
 ```bash
 cd "Mastra first test"        # or
+cd "Mastra for todo"          # or
 cd "hindsight docker"         # or
 cd "agno for todo"
 ```
