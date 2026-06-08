@@ -117,21 +117,21 @@ git ls-files | grep -E "\.(env|key|pem)$"            # should print nothing
 
 ---
 
-## 🤝 Contributing
-
-1. Fork the repository.
-2. Create a feature branch: `git checkout -b feature/your-change`.
-3. Make your changes **only inside one sub-project** unless the change is cross-cutting.
-4. Run `git status` and `git diff --cached` to make sure **no `.env` or key files** are staged.
-5. Commit with a clear message and open a pull request.
-
-When adding a new sub-project, also create a dedicated `.gitignore` and `README.md` in its folder.
-
----
-
 ## 📄 License
 
-TBD — add an explicit license file (e.g., `LICENSE`) before publishing publicly.
+This repository is released under the **AI Workflow Experiments Community
+License (2025)** — a permissive community license. **Anyone can use, copy,
+modify, merge, publish, distribute, sublicense, and/or sell copies of the
+software** for any purpose, with or without attribution, subject to the
+following conditions:
+
+- The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the software.
+- The software is provided **"as is"**, without warranty of any kind.
+- You are responsible for keeping your own secrets (API keys, tokens,
+  credentials) out of any version you publish.
+
+See the full text in [`LICENSE`](./LICENSE).
 
 ---
 
