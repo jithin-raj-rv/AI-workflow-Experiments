@@ -27,6 +27,12 @@ out/
 .parcel-cache/
 .cache/
 
+# Mastra build / runtime artefacts
+.mastra/
+.roo/
+*.duckdb
+*.duckdb.wal
+
 # Python
 __pycache__/
 *.py[cod]
