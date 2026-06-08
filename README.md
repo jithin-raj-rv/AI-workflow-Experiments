@@ -42,6 +42,12 @@ A multi-agent system built with [Mastra](https://mastra.ai) for collaborative AI
 - **Stack:** TypeScript, Node.js, npm
 - **Use case:** Multi-agent orchestration
 - **Quick start:** `cd "Mastra first test" && npm install && npm run dev`
+- **Quick links:**
+  - [Project README](./Mastra%20first%20test/README.md)
+  - [Usage guide](./Mastra%20first%20test/USAGE_GUIDE.md)
+  - [Agno side-by-side experiment](./Mastra%20first%20test/agno/README.md)
+  - [Mastra framework](https://mastra.ai)
+  - [Mastra Studio docs](https://mastra.ai/docs/studio/overview)
 
 ### 2️⃣ [Hindsight Docker](./hindsight%20docker/README.md)
 Dockerised deployment configuration for the Hindsight service. Provides reproducible container builds and environment-based configuration.
@@ -49,6 +55,10 @@ Dockerised deployment configuration for the Hindsight service. Provides reproduc
 - **Stack:** Docker
 - **Use case:** Containerised service deployment
 - **Quick start:** Populate the local `.env` files, then run the install command from `terminal command docker install.env`
+- **Quick links:**
+  - [Project README](./hindsight%20docker/README.md)
+  - [Docker docs](https://docs.docker.com/)
+  - [Docker Compose overview](https://docs.docker.com/compose/)
 
 ### 3️⃣ [Agno for Todo](./agno%20for%20todo/README.md)
 An [Agno](https://github.com/agno-agi/agno)-based AI agent project that powers a todo / task-management assistant, with an optional Supabase backend.
@@ -56,6 +66,11 @@ An [Agno](https://github.com/agno-agi/agno)-based AI agent project that powers a
 - **Stack:** Python 3.10+, Supabase (optional)
 - **Use case:** AI-assisted todo / task management
 - **Quick start:** `cd "agno for todo" && python -m venv .venv && pip install -r requirements.txt && python cli.py`
+- **Quick links:**
+  - [Project README](./agno%20for%20todo/README.md)
+  - [Agno framework](https://github.com/agno-agi/agno)
+  - [Supabase CLI docs](https://supabase.com/docs/guides/cli)
+  - [Python virtual environments guide](https://docs.python.org/3/tutorial/venv.html)
 
 ---
 
