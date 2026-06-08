@@ -1,0 +1,63 @@
+# Environment files & secrets - DO NOT COMMIT
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.test
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# Docker-specific ignores
+docker-compose.override.yml
+*.override.env
+
+# Logs
+*.log
+docker-compose.log
+
+# Build artefacts
+dist/
+build/
+out/
+
+# Node (if Hindsight ships a JS/TS runtime)
+node_modules/
+.pnpm-store/
+
+# Python (if Hindsight ships a Python runtime)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+.env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage / test artefacts
+coverage/
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+
+# Misc
+*.tgz
+*.tar.gz
