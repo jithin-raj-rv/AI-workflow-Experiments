@@ -137,6 +137,26 @@ See the full text in [`LICENSE`](./LICENSE).
 
 ## 🔗 Quick Links
 
-- [Mastra first test/README.md](./Mastra%20first%20test/README.md)
-- [hindsight docker/README.md](./hindsight%20docker/README.md)
-- [agno for todo/README.md](./agno%20for%20todo/README.md)
+### Sub-projects
+
+- [Mastra first test](./Mastra%20first%20test/README.md) — TypeScript multi‑agent team
+  - [Usage guide](./Mastra%20first%20test/USAGE_GUIDE.md)
+  - [Agno side‑by‑side experiment](./Mastra%20first%20test/agno/README.md)
+- [Mastra for todo](./Mastra%20for%20todo/README.md) — Mastra‑powered todo app
+  - [todo-app (Mastra project)](./Mastra%20for%20todo/todo-app/README.md)
+- [hindsight docker](./hindsight%20docker/README.md) — Dockerised Hindsight service
+- [agno for todo](./agno%20for%20todo/README.md) — Agno‑powered todo assistant
+
+### Repo resources
+
+- [License](./LICENSE) — AI Workflow Experiments Community License (2025)
+- [`.gitignore`](./.gitignore) — monorepo ignore patterns
+- [GitHub repository](https://github.com/jithin-raj-rv/AI-workflow-Experiments)
+
+### External references
+
+- [Mastra framework](https://mastra.ai)
+- [Mastra Studio docs](https://mastra.ai/docs/studio/overview)
+- [Agno framework](https://github.com/agno-agi/agno)
+- [Supabase CLI docs](https://supabase.com/docs/guides/cli)
+- [Docker docs](https://docs.docker.com/)

@@ -93,3 +93,11 @@ python agent_os.py
 
 Released under the project's [community license](../../LICENSE). Use it as you
 wish — see the root `LICENSE` file for the full text.
+
+## 🔗 Quick Links
+
+- [Agno framework](https://github.com/agno-agi/agno)
+- [Supabase CLI docs](https://supabase.com/docs/guides/cli)
+- Parent project: [`Mastra first test`](../README.md)
+- Repository root: [`../../README.md`](../../README.md)
+- License: [`../../LICENSE`](../../LICENSE)

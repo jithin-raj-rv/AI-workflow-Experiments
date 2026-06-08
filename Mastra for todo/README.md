@@ -39,3 +39,11 @@ Mastra for todo/
 
 Released under the project's [community license](../../LICENSE). Use it as you
 wish — see the root `LICENSE` file for the full text.
+
+## 🔗 Quick Links
+
+- Mastra todo app: [`todo-app/`](./todo-app/README.md)
+- [Mastra framework](https://mastra.ai)
+- [Mastra Studio docs](https://mastra.ai/docs/studio/overview)
+- Repository root: [`../README.md`](../README.md)
+- License: [`../LICENSE`](../LICENSE)
